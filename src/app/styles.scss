@@ -1,0 +1,67 @@
+.project-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 29vw;
+  text-transform: uppercase;
+  z-index: 1;
+  color: white;
+  color: transparent;
+  font-weight: 800;
+  line-height: 0.1vh;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+#banner {
+  height: calc(100vh - 76px) !important;
+}
+
+.title-intro {
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.content-intro {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 2;
+  letter-spacing: 2.5 !important;
+}
+
+.service-item:hover {
+  background-color: #fdcb6e;
+  transform: scale(1.02);
+  transition: transform 0.5s ease;
+}
+
+.service-item {
+  max-height: 421.91px;
+}
+
+.service-name {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media (min-width: 1424px) {
+  .container-service {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1425px) {
+  .container-service {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}

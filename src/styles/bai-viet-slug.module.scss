@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 60%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.shortContent {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fullContent {
+  font-size: 1rem;
+}
